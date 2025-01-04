@@ -1,0 +1,18 @@
+.faq-container {
+    margin: 0 10%;
+}
+
+.preguntas {
+    margin-top: 4rem;
+}
+
+.pregunta {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.pregunta p{
+ padding: 7px;   
+}

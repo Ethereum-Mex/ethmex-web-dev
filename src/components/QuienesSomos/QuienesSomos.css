@@ -1,0 +1,48 @@
+.container-quienes-somos {
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.titulo {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.container-imagen-texto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-imagen {
+    width: 50%;
+    height: 50vh;
+    padding: 2rem;
+}
+
+.container-textos {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-mision {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.dropdown-1 {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}

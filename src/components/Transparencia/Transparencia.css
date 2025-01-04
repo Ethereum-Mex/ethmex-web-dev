@@ -1,0 +1,21 @@
+.transparencia-container {
+    height: 30vh;
+    
+}
+.transparencia-titulo {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.botones-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.botones-container button {
+    padding: 15px 70px;
+}

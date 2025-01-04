@@ -1,0 +1,15 @@
+.container-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.links-navbar ul {
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-navbar ul li {
+    list-style-type: none;
+}

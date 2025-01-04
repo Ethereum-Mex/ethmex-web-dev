@@ -1,0 +1,28 @@
+.valores-container {
+    padding: 0px 10%;
+  }
+  
+  .nuestros-valores-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Esto crea dos columnas de igual tamaño */
+    gap: 20px; /* Espacio entre los elementos */
+  }
+  
+  .valores {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .valor img {
+    width: 50px; /* Tamaño de la imagen */
+    height: 50px; /* Tamaño de la imagen */
+  }
+
+  .valores-titulo {
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  

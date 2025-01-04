@@ -1,0 +1,27 @@
+.container-hero-gral {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 90vh; /* Altura del 80% de la ventana */
+    width: 100%; /* Asegura que ocupe el 100% del ancho */
+  }
+  
+  .container-hero {
+    display: flex;
+    gap: 10rem;
+    justify-content: center; /* Centra verticalmente los hijos */
+    align-items: center; /* Centra horizontalmente los hijos */
+    text-align: center; /* Asegura que el texto esté centrado */
+  }
+  
+  h1 {
+    font-size: 2rem; /* Ajusta el tamaño del texto, puedes cambiarlo */
+    margin-bottom: 20px; /* Espacio entre el texto y la imagen */
+  }
+  
+  img {
+    max-width: 100%; /* Evita que la imagen se desborde */
+    height: auto; /* Mantiene la relación de aspecto */
+    max-height: 80%; /* Limita la altura de la imagen al 80% del contenedor */
+  }
+  
