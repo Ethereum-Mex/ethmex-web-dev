@@ -19,7 +19,7 @@ npm install
 ```
 
 3. Run the app in the development mode
-``
+```
 npm start
 ```
 
@@ -34,12 +34,14 @@ You can also run:
 ```
 npm test
 ```
+
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ```
 npm run build
 ```
+
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -50,6 +52,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ```npm run eject
 ```
+
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 
@@ -58,5 +61,4 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 
 ## Credits
-Designed by Sofiverse
-Developed by Liz Durán [@liz_durang](https://x.com/liz_durang)& Paquito
+With ♡, designed by SofiVerse ([])() and developed by Liz Durán ([@liz_durang])(https://x.com/liz_durang) & Paquito ([])()
