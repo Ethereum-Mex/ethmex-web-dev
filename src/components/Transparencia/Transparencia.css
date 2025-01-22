@@ -1,21 +1,18 @@
-.transparencia-container {
-    height: 30vh;
-    
-}
-.transparencia-titulo {
-    width: 100%;
-    text-align: center;
-    
-}
-
-.botones-container {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-    gap: 40px;
-    
+.btn-transparencia{
+    background-color: #FF4C52;
+    border: solid #FF4C52;
+    width: 360px;
+    height: 50px;
+    color: #FEF9F5;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
 
-.botones-container button {
-    padding: 15px 70px;
+
+.btn-transparencia:active,
+.btn-transparencia:hover
+{
+    background-color: #F48777;
+    border: solid #F48777;
+    color: #FEF9F5;
 }

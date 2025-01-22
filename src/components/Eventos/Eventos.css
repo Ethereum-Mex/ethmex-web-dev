@@ -1,22 +1,17 @@
-.eventos-container {
-    height: 30vh;
-    margin-top: 20vh;
-    
-}
-.eventos-titulo {
-    width: 100%;
-    text-align: center;
-    
+.btn-evento{
+    background-color: #FFC476;
+    border: solid #FFC476;
+    width: 360px;
+    height: 50px;
+    font-size: 24px;
+    letter-spacing: 1px;
+
 }
 
-.botones-container {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-    gap: 40px;
-    
-}
 
-.botones-container button {
-    padding: 15px 70px;
+.btn-evento:active,
+.btn-evento:hover
+{
+    background-color: #FCD39D;
+    border: solid #FCD39D;
 }

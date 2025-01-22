@@ -1,28 +1,5 @@
-
-
-
-.logros-titulo {
-    width: 100%;
-    text-align: center;
-}
-
-.logros-slider {
-    padding: 5rem;
-    display: flex;
-    width: 70%;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 20px;
-}
-
-.imagen-container {
-    width: 300px;
-    height: 300px;
-}
-
-.logros-texto {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-
+.logros{
+    background-image: 
+      url('/public/images/pattern.png'), /* Imagen de fondo */
+      linear-gradient(to bottom, #FEF9F5, #FDE2CF); /* Degradado */
 }

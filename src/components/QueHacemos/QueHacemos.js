@@ -5,46 +5,104 @@ import React from 'react';
 
 function QueHacemos() {
     return (
-      <div class="hacemos-container">
-        <div class="hacemos-titulo">
-          <h1>Que Hacemos</h1>
-        </div>
-        <div class="hacemos-subtexto">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum veniam voluptatum blanditiis, consequatur nesciunt natus nobis sint quia, ullam ipsam repudiandae? Odit, numquam veniam! Ex facilis reiciendis odit vel sint numquam! Animi excepturi, rem nemo deleniti harum exercitationem eligendi beatae minima maiores labore dolorum porro non id ullam architecto expedita.</p>
-        </div>
-        <div class="cards-container">
-          <div class="container-arriba">
-            <div class="card-container">
-              <img src="" alt="icon"/>
-              <h4>Eventos y talleres</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur assumenda optio quia quidem labore repellat.</p>
+      <div className="container-fluid container-ethmex align-items-center justify-content-center ">
+          <h1 className="ethmex-primary-title text-center">¿Qué hacemos?</h1>
+          <br></br>
+          <p className="ethmex-text text-center mx-auto p-container">
+          En Ethereum México nos enfocamos en educar, inspirar y conectar a personas interesadas en la tecnología blockchain, creando espacios para compartir ideas y colaborar en la construcción de un futuro descentralizado. Nuestras actividades incluyen:
+          </p>
+          <br /><br />
+
+          <div className="container-ethmex-aux mx-auto">
+            <div className="row p-3 g-3 justify-content-center">
+              {/* Primer valor */}
+              <div className="col-12 col-md-3 text-center hacer-item">
+                <img
+                  src="/images/talleres-icon.png"
+                  className="img-fluid hacer-icon mb-2"
+                  alt="Icono de talleres"
+                />
+                <div>
+                  <span className="ethmex-primary-subtitle">Eventos y talleres</span>
+                  <br></br>
+                    <span className="ethmex-text">
+                      Encuentros presenciales y virtuales para promover la adopción y comprensión de Ethereum
+                    </span>
+                 </div>
+              </div>
+              
+
+              {/* Segundo valor */}
+              <div className="col-12 col-md-3 text-center hacer-item">
+                <img
+                  src="/images/capacitacion-icon.png"
+                  className="img-fluid hacer-icon mb-2"
+                  alt="Icono de Capacitación"
+                />
+                <div>
+                  <span className="ethmex-primary-subtitle">Capacitación</span>
+                  <br></br>
+                    <span className="ethmex-text">
+                    Ofrecemos formación para aprender a usar la blockchain de manera segura y efectiva
+                    </span>
+                 </div>
+              </div>
+
+              {/* Tercer valor */}
+              <div className="col-12 col-md-3 text-center hacer-item">
+                <img
+                  src="/images/colaboracion-icon.png"
+                  className="img-fluid hacer-icon mb-2"
+                  alt="Icono de colaboracion"
+                />
+                <div>
+                  <span className="ethmex-primary-subtitle">Colaboraciones</span>
+                  <br></br>
+                    <span className="ethmex-text">
+                    Trabajamos con organizaciones y proyectos para fortalecer el ecosistema Web3 en México
+                    </span>
+                 </div>
+              </div>
+
+              {/* Cuarto valor */}
+              <div className="col-12 col-md-3 text-center hacer-item">
+                <img
+                  src="/images/oportunidades-icon.png"
+                  className="img-fluid hacer-icon mb-2"
+                  alt="Icono de oportunidades"
+                />
+                <div>
+                  <span className="ethmex-primary-subtitle">Oportunidades</span>
+                  <br></br>
+                    <span className="ethmex-text">
+                    Creamos iniciativas como becas y hackathons para impulsar el talento local y fomentar la innovación
+                    </span>
+                 </div>
+              </div>
+
+              {/* Quinto valor */}
+              <div className="col-12 col-md-3 text-center hacer-item">
+                <img
+                  src="/images/escuelas-icon.png"
+                  className="img-fluid hacer-icon mb-2"
+                  alt="Icono de escuelas"
+                />
+                <div>
+                  <span className="ethmex-primary-subtitle">Visitas a escuelas</span>
+                  <br></br>
+                    <span className="ethmex-text">
+                    Educamos a las nuevas generaciones sobre Web3 y Ethereum
+                    </span>
+                 </div>
+              </div>
+            
+            
             </div>
-            <div class="card-container">
-              <img src="" alt="icon"/>
-              <h4>Eventos y talleres</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur assumenda optio quia quidem labore repellat.</p>
-            </div>
-            <div class="card-container">
-              <img src="" alt="icon"/>
-              <h4>Eventos y talleres</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur assumenda optio quia quidem labore repellat.</p>
-            </div>
+
+            
           </div>
-          <div class="container-abajo">
-            <div class="card-container">
-              <img src="" alt="icon"/>
-              <h4>Eventos y talleres</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur assumenda optio quia quidem labore repellat.</p>
-            </div>
-            <div class="card-container">
-              <img src="" alt="icon"/>
-              <h4>Eventos y talleres</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur assumenda optio quia quidem labore repellat.</p>
-            </div>
-          </div>
-        </div>
       </div>
-      )
+    )
     ;
   }
 

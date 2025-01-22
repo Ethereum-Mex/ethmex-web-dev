@@ -5,14 +5,32 @@ import React from 'react';
 
 function Contactanos() {
     return (
-      <div class="contactanos-container">
-        <h1>Contactanos</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aut consequatur facilis fugiat similique fuga.</p>
-        <h3>Email</h3>
-        <div class="respuesta"></div>
-        <h3>Comentarios</h3>
-        <div class="respuesta-2"></div>
-        <button>Enviar</button>
+      <div className="container-fluid container-ethmex align-items-center justify-content-center">
+        
+        <br></br>
+
+        <div className="container-ethmex-aux mx-auto">
+          <h1 className="ethmex-primary-title ">Contáctanos</h1>
+          <p className="ethmex-text mx-auto " style={{textAlign: 'left'}}>
+          ¿Tienes más preguntas o te gustaría colaborar con nosotros? ¡Ponte en contacto! Pronto te enviaremos una respuesta.
+          </p>
+          <br></br>
+          <form>
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label ethmex-primary-subtitle">Email*</label>
+              <input type="email" class="form-control ethmex-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com"></input>
+            </div>
+            <div class="mb-4">
+              <label for="exampleFormControlTextarea1" class="form-label ethmex-primary-subtitle">Comentarios</label>
+              <textarea type="password" class="form-control ethmex-input" id="exampleFormControlTextarea1" placeholder="Escribe tus comentarios o preguntas"></textarea>
+            </div>
+            <button type="submit" class="btn btn-contacto mt-4">Enviar</button>
+          </form>
+
+
+
+        </div>
+
       </div>
       )
     ;

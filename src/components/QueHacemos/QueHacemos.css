@@ -1,38 +1,24 @@
-.hacemos-container {
-    padding: 40px;
-    height: 80vh;
+.hacer-item{
+    border: solid #FDE2CF 3px;
+    border-radius: 16px;
+    background-color: #FEF9F5;
+    box-shadow: 4px 4px 0 0 #FDE2CF;
+    padding: 20px;
+
 }
 
-.hacemos-titulo {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 5rem;
+.hacer-icon{
+    width: 90px;
 }
 
-.hacemos-subtexto {
-    width: 50%;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 5rem;
-}
+@media (min-width: 768px) {
 
+    .hacer-item{
+        margin-right: 15px;
+    }
 
-.card-container {
-    text-align: center;
-}
+    .p-container{
+        width: 650px;
+    }
 
-.card-container p {
-    width: 50%;
-    margin: 0 auto;
-}
-
-.container-arriba {
-    display: flex;
-    margin-top: 4rem;
-}
-
-.container-abajo {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
 }

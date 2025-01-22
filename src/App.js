@@ -1,5 +1,5 @@
 import './App.css';
-import Hero from './components/Hero/Hero.js';
+import Carrusel from './components/Carrusel/Carrusel.js';
 import Navbar from './components/Navbar/Navbar.js';
 import QuienesSomos from './components/QuienesSomos/QuienesSomos.js';
 import NuestrosValores from './components/NuestrosValores/NuestrosValores.js';
@@ -16,8 +16,11 @@ import Footer from './components/Footer/Footer.js';
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      <div className="container-fluid hero-ethmex ">
+        <Navbar />
+        <Carrusel />
+      </div>
+      
       <QuienesSomos />
       <NuestrosValores />
       <QueHacemos />
@@ -27,7 +30,10 @@ function App() {
       <Transparencia />
       <Faq />
       <Contactanos />
-      <Footer />
+      <div className="container-fluid hero-footer-ethmex ">
+        <Footer />
+      </div>
+      
     </div>
   );
 }

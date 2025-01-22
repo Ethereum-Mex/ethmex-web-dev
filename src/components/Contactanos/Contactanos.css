@@ -1,26 +1,25 @@
-.contactanos-container {
-    margin: 10%;
+.btn-contacto{
+    background-color: #FFC476;
+    border: solid #FFC476;
+    width: 260px;
+    height: 50px;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
 
-.contactanos-container p {
-    width: 33%;
-    margin: 2rem 0;
+.btn-contacto:hover,
+.btn-contacto:active{
+    background-color: #FCD39D;
+    border: solid #FCD39D;
 }
 
-.respuesta {
-    width: 100%;
-    background-color: black;
-    height: 40px;
-    margin-bottom: 2rem;
-}
-
-.respuesta-2 {
-    width: 100%;
-    background-color: black;
-    height: 120px;
-    margin-bottom: 3rem;
-}
-
-button {
-    padding: .5rem 4rem;
+.ethmex-input{
+    border: solid 2px #FDE2CF;
+    box-shadow: 3px 3px 0 0 #FDE2CF; /* Sombra hacia la derecha */
+    border-radius: 16px;
+    padding: 15px;
+    color: #858585;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    background-color: #FEF9F5;
 }
