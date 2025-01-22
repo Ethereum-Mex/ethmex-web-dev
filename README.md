@@ -25,8 +25,7 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes. You may also see any lint errors in the console.
 
 
 You can also run:
@@ -50,7 +49,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```npm run eject
+```
+npm run eject
 ```
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
@@ -61,4 +61,4 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 
 ## Credits
-With ♡, designed by SofiVerse ([])() and developed by Liz Durán ([@liz_durang])(https://x.com/liz_durang) & Paquito ([])()
+With ♡, designed by SofiVerse (([]()) and developed by Liz Durán ([@liz_durang](https://x.com/liz_durang)) & Paquito ([]())
