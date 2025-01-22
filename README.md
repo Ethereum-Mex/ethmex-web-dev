@@ -1,7 +1,7 @@
 # Ethereum México Web
 Hello World!
 
-<img src="./imagenes/Hero.png" alt="Logo de Ethereum" width="" />
+<img src="./images/Hero.png" alt="Logo de Ethereum" width="" />
 
 ## Quick Start
 
