@@ -31,7 +31,7 @@ function Faq() {
               ¿Qué es Ethereum México?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse show">
+            <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse ">
               <div className="accordion-body">
                 <p className="ethmex-text">Es una comunidad dedicada a la tecnología blockchain de Ethereum, que busca inspirar, educar y conectar a personas en México y Latinoamérica con el ecosistema Web3, promoviendo el aprendizaje y la colaboración dentro del "jardín infinito" de Ethereum, donde las ideas y relaciones florecen para fortalecer la comunidad.</p>
               </div>
@@ -43,7 +43,7 @@ function Faq() {
               ¿Cómo puedo ser parte de la comunidad?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse show">
+            <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse ">
               <div className="accordion-body">
                 <p className="ethmex-text">Únete a nuestra comunidad en Telegram para conocer nuestras iniciativas, participar en discusiones y recibir apoyo de otros miembros que comparten tus intereses.</p>
               </div>
@@ -55,7 +55,7 @@ function Faq() {
               ¿Qué obtengo si me uno a la comunidad?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse show">
+            <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse ">
               <div className="accordion-body">
                 <p className="ethmex-text">Tendrás acceso a contenido educativo, sesiones de networking, y la oportunidad de aprender y crecer junto a una comunidad diversa. Además, podrás participar en talleres, obtener becas y acceder a nuevas oportunidades en Web3.</p>
               </div>

@@ -2,11 +2,10 @@ import './QueHacemos.css';
 import React from 'react';
 
 
-
 function QueHacemos() {
     return (
       <div className="container-fluid container-ethmex align-items-center justify-content-center ">
-          <h1 className="ethmex-primary-title text-center">¿Qué hacemos?</h1>
+          <h1 className="ethmex-primary-title text-center">¿Qué Hacemos?</h1>
           <br></br>
           <p className="ethmex-text text-center mx-auto p-container">
           En Ethereum México nos enfocamos en educar, inspirar y conectar a personas interesadas en la tecnología blockchain, creando espacios para compartir ideas y colaborar en la construcción de un futuro descentralizado. Nuestras actividades incluyen:
@@ -18,7 +17,7 @@ function QueHacemos() {
               {/* Primer valor */}
               <div className="col-12 col-md-3 text-center hacer-item">
                 <img
-                  src="/images/talleres-icon.png"
+                  src={`${process.env.PUBLIC_URL}/images/talleres-icon.png`}
                   className="img-fluid hacer-icon mb-2"
                   alt="Icono de talleres"
                 />
@@ -35,7 +34,7 @@ function QueHacemos() {
               {/* Segundo valor */}
               <div className="col-12 col-md-3 text-center hacer-item">
                 <img
-                  src="/images/capacitacion-icon.png"
+                  src={`${process.env.PUBLIC_URL}/images/capacitacion-icon.png`}
                   className="img-fluid hacer-icon mb-2"
                   alt="Icono de Capacitación"
                 />
@@ -51,7 +50,7 @@ function QueHacemos() {
               {/* Tercer valor */}
               <div className="col-12 col-md-3 text-center hacer-item">
                 <img
-                  src="/images/colaboracion-icon.png"
+                  src={`${process.env.PUBLIC_URL}/images/colaboracion-icon.png`}
                   className="img-fluid hacer-icon mb-2"
                   alt="Icono de colaboracion"
                 />
@@ -67,7 +66,7 @@ function QueHacemos() {
               {/* Cuarto valor */}
               <div className="col-12 col-md-3 text-center hacer-item">
                 <img
-                  src="/images/oportunidades-icon.png"
+                  src={`${process.env.PUBLIC_URL}/images/oportunidades-icon.png`}
                   className="img-fluid hacer-icon mb-2"
                   alt="Icono de oportunidades"
                 />
@@ -83,7 +82,7 @@ function QueHacemos() {
               {/* Quinto valor */}
               <div className="col-12 col-md-3 text-center hacer-item">
                 <img
-                  src="/images/escuelas-icon.png"
+                  src={`${process.env.PUBLIC_URL}/images/escuelas-icon.png`}
                   className="img-fluid hacer-icon mb-2"
                   alt="Icono de escuelas"
                 />

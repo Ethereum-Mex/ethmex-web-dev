@@ -21,14 +21,14 @@ function Carrusel() {
             <span style={{ color: '#1E836D' }}>Ethereum </span>
             <span style={{ color: '#D83535' }}>México </span>
           </div>
-          <img src="/images/Capa_1-2.png" className="d-block img-fluid bienvenida-imagen" alt="..."></img>
+          <img src={`${process.env.PUBLIC_URL}/images/Capa_1-2.png`} className="d-block img-fluid bienvenida-imagen" alt="..."></img>
         </div>
         {/*
         <div className="carousel-item">
-          <img src="/images/Ethereum-Mexico-Logo-01.webp" className="d-block img-fluid" alt="..."></img>
+          <img src={`${process.env.PUBLIC_URL}/images/Capa_1-2.png`} className="d-block img-fluid" alt="..."></img>
         </div>
         <div className="carousel-item">
-          <img src="/images/Ethereum-Mexico-Logo-01.webp" className="d-block img-fluid" alt="..."></img>
+          <img src={`${process.env.PUBLIC_URL}/images/Capa_1-2.png`} className="d-block img-fluid" alt="..."></img>
         </div>
         */}
       </div>

@@ -6,7 +6,7 @@ import React from 'react';
 function ConfianNosotros() {
     return (
       <div className="container-fluid container-ethmex align-items-center justify-content-center">
-        <h1 className="ethmex-primary-title text-center">Confian en nosotros</h1>
+        <h1 className="ethmex-primary-title text-center">Confian en Nosotros</h1>
         <br /><br />
 
         <div className="mx-auto">
@@ -15,7 +15,7 @@ function ConfianNosotros() {
               {/* Primer valor */}
               <div className="col-3 col-xl-1 text-center mx-4 mb-5 mb-xl-0">
                 <img
-                  src="/images/ethereum-foundation.png"
+                  src={`${process.env.PUBLIC_URL}/images/ethereum-foundation.png`}
                   className="img-fluid confia-icon"
                   alt="Icono de ethereum foundation"
                 />
@@ -24,7 +24,7 @@ function ConfianNosotros() {
               {/* Segundo valor */}
               <div className="col-3 col-xl-1 text-center mx-4 mb-5  mb-xl-0">
                 <img
-                  src="/images/esp.png"
+                  src={`${process.env.PUBLIC_URL}/images/esp.png`}
                   className="img-fluid confia-icon"
                   alt="Icono de esp"
                 />
@@ -33,7 +33,7 @@ function ConfianNosotros() {
               {/* Tercer valor */}
               <div className="col-3 col-xl-1 text-center mx-4 mb-5  mb-xl-0">
                 <img
-                  src="/images/ledger.png"
+                  src={`${process.env.PUBLIC_URL}/images/ledger.png`}
                   className="img-fluid confia-icon"
                   alt="Icono de ledger"
                 />
@@ -42,7 +42,7 @@ function ConfianNosotros() {
               {/* Cuarto valor */}
               <div className="col-3 col-xl-1 text-center mx-4 ">
                 <img
-                  src="/images/bitso.png"
+                  src={`${process.env.PUBLIC_URL}/images/bitso.png`}
                   className="img-fluid confia-icon"
                   alt="Icono de Bitso"
                 />
@@ -51,7 +51,7 @@ function ConfianNosotros() {
               {/* Quinto valor */}
               <div className="col-3 col-xl-1 text-center mx-4">
                 <img
-                  src="/images/arbitrum.png"
+                  src={`${process.env.PUBLIC_URL}/images/arbitrum.png`}
                   className="img-fluid confia-icon"
                   alt="Icono de Arbitrum"
                 />
@@ -60,7 +60,7 @@ function ConfianNosotros() {
               {/* Sexto valor */}
               <div className="col-3 col-xl-1 text-center mx-4">
                 <img
-                  src="/images/optimism.png"
+                  src={`${process.env.PUBLIC_URL}/images/optimism.png`}
                   className="img-fluid confia-icon"
                   alt="Icono de Optimism"
                 />

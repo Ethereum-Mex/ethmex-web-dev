@@ -12,7 +12,7 @@ function NuestrosValores() {
                     {/* Primer valor */}
                     <div className="col-12 col-md-6 d-flex align-items-start gap-3">
                         <img
-                            src="/images/descentralizacion-icon.png"
+                            src={`${process.env.PUBLIC_URL}/images/descentralizacion-icon.png`}
                             className="img-fluid valor-icon"
                             alt="Icono de Descentralización"
                         />
@@ -28,7 +28,7 @@ function NuestrosValores() {
                     {/* Segundo valor */}
                     <div className="col-12 col-md-6 d-flex align-items-start gap-3">
                         <img
-                            src="/images/inclusion-icon.png"
+                            src={`${process.env.PUBLIC_URL}/images/inclusion-icon.png`}
                             className="img-fluid valor-icon"
                             alt="Icono de inclusion"
                         />
@@ -44,7 +44,7 @@ function NuestrosValores() {
                     {/* Tercer valor */}
                     <div className="col-12 col-md-6 d-flex align-items-start gap-3">
                         <img
-                            src="/images/educacion-icon.png"
+                            src={`${process.env.PUBLIC_URL}/images/educacion-icon.png`}
                             className="img-fluid valor-icon"
                             alt="Icono de Educación"
                         />
@@ -60,7 +60,7 @@ function NuestrosValores() {
                     {/* Cuarto valor */}
                     <div className="col-12 col-md-6 d-flex align-items-start gap-3">
                         <img
-                            src="/images/innovacion-icon.png"
+                            src={`${process.env.PUBLIC_URL}/images/innovacion-icon.png`}
                             className="img-fluid valor-icon"
                             alt="Icono de Innovación"
                         />
@@ -76,7 +76,7 @@ function NuestrosValores() {
                     {/* Quinto valor */}
                     <div className="col-12 col-md-6 d-flex align-items-start gap-3">
                         <img
-                            src="/images/transparencia-icon.png"
+                            src={`${process.env.PUBLIC_URL}/images/transparencia-icon.png`}
                             className="img-fluid valor-icon"
                             alt="Icono de Transparencia"
                         />
@@ -92,7 +92,7 @@ function NuestrosValores() {
                     {/* Sexto valor */}
                     <div className="col-12 col-md-6 d-flex align-items-start gap-3">
                         <img
-                            src="/images/comunidad-icon.png"
+                            src={`${process.env.PUBLIC_URL}/images/comunidad-icon.png`}
                             className="img-fluid valor-icon"
                             alt="Icono de Comunidad"
                         />

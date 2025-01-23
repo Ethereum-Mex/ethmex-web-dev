@@ -10,7 +10,7 @@ function QuienesSomos() {
         <div className="container-ethmex-aux mx-auto">
         <div className="d-flex flex-column flex-xl-row align-items-center justify-content-center gap-4 ">
             <img 
-              src="/images/fin_merida.JPG" 
+              src={`${process.env.PUBLIC_URL}/images/fin_merida.JPG`}
               className="d-block img-fluid somos-imagen" 
               alt="Imagen de Ethereum México" 
             />
