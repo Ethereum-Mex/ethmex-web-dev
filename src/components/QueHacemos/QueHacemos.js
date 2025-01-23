@@ -4,7 +4,7 @@ import React from 'react';
 
 function QueHacemos() {
     return (
-      <div className="container-fluid container-ethmex align-items-center justify-content-center ">
+      <div className="container-fluid container-ethmex align-items-center justify-content-center" id="que-hacemos">
           <h1 className="ethmex-primary-title text-center">¿Qué Hacemos?</h1>
           <br></br>
           <p className="ethmex-text text-center mx-auto p-container">

@@ -3,7 +3,7 @@ import React from 'react';
 
 function QuienesSomos() {
     return (
-      <div className="container-fluid container-ethmex align-items-center justify-content-center">
+      <div className="container-fluid container-ethmex align-items-center justify-content-center" id="quienes-somos">
         <h1 className="ethmex-primary-title text-center">¿Quiénes Somos?</h1>
         <br /><br />
 

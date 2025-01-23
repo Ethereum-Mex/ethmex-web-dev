@@ -5,7 +5,7 @@ import React from 'react';
 
 function Faq() {
     return (
-      <div className="container-fluid container-ethmex align-items-center justify-content-center">
+      <div className="container-fluid container-ethmex align-items-center justify-content-center" id="faq">
         
         <br></br>
 

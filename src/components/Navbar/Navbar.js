@@ -13,14 +13,14 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
               <div className="navbar-nav ms-auto gap-2 align-items-center">
-                <a className="nav-link" href="#">Quiénes Somos</a>
-                <a className="nav-link" href="#">Qué Hacemos</a>
-                <a className="nav-link" href="#">Eventos</a>
-                <a className="nav-link" href="#">Transparencia</a>
-                <a className="nav-link" href="#">FAQ</a>
-                <a className="nav-link" href="#">Contáctanos</a>
-                <a className="nav-link" href="#">
-                  <button type="button" class="btn btn-navbar">Únete</button>
+                <a className="nav-link" href="#quienes-somos">Quiénes Somos</a>
+                <a className="nav-link" href="#que-hacemos">Qué Hacemos</a>
+                <a className="nav-link" href="#eventos">Eventos</a>
+                <a className="nav-link" href="#transparencia">Transparencia</a>
+                <a className="nav-link" href="#faq">FAQ</a>
+                <a className="nav-link" href="#contactanos">Contáctanos</a>
+                <a className="nav-link" href="https://t.me/ethmexico" target="_blank" rel="noopener noreferrer">
+                  <button type="button" class="btn btn-navbar">Únete a la comunidad</button>
                 </a>
               </div>
             </div>

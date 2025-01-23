@@ -19,7 +19,7 @@ function Footer() {
 
           {/* Iconos sociales */}
           <div className="d-flex gap-4 gap-xl-5 footer-icons">
-            <a href="#x" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/ethereum_mexico" target="_blank" rel="noopener noreferrer">
               <img
                 src={`${process.env.PUBLIC_URL}/images/x-icon.png`}
                 alt="X"
@@ -28,7 +28,7 @@ function Footer() {
                 className="social-icon"
               />
             </a>
-            <a href="#telegram" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/ethmexico" target="_blank" rel="noopener noreferrer">
               <img
                 src={`${process.env.PUBLIC_URL}/images/telegram-icon.png`}
                 alt="Telegram"
@@ -37,7 +37,7 @@ function Footer() {
                 className="social-icon"
               />
             </a>
-            <a href="#linkedin" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/ethereum-mexico-comunidad/" target="_blank" rel="noopener noreferrer">
               <img
                 src={`${process.env.PUBLIC_URL}/images/linkedin-icon.png`}
                 alt="LinkedIn"
@@ -46,7 +46,7 @@ function Footer() {
                 className="social-icon"
               />
             </a>
-            <a href="#youtube" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@ethereummexico" target="_blank" rel="noopener noreferrer">
               <img
                 src={`${process.env.PUBLIC_URL}/images/youtube-icon.png`}
                 alt="YouTube"
@@ -55,7 +55,7 @@ function Footer() {
                 className="social-icon"
               />
             </a>
-            <a href="#instagram" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/ethereum_mexico/" target="_blank" rel="noopener noreferrer">
               <img
                 src={`${process.env.PUBLIC_URL}/images/ig-icon.png`}
                 alt="Instagram"
