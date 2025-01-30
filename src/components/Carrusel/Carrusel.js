@@ -2,48 +2,60 @@ import './Carrusel.css';
 import React from 'react';
 
 function Carrusel() {
-  return (
-    <div id="carouselExampleAutoplaying" className="carousel carousel-dark carousel-hero slide" data-bs-ride="carousel">
-       {/*
-      <div className="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-       
-        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        
-      </div>
-      */}
 
-      <div className="carousel-inner">
-        <div className="carousel-item active d-flex flex-column flex-lg-row align-items-center justify-content-center gap-5">
-          <div className=" bienvenida-texto">
-            <span>Bienvenidos a </span> <br></br>
-            <span style={{ color: '#1E836D' }}>Ethereum </span>
-            <span style={{ color: '#D83535' }}>México </span>
-          </div>
-          <img src={`${process.env.PUBLIC_URL}/images/Capa_1-2.png`} className="d-block img-fluid bienvenida-imagen" alt="..."></img>
-        </div>
-        {/*
-        <div className="carousel-item">
-          <img src={`${process.env.PUBLIC_URL}/images/Capa_1-2.png`} className="d-block img-fluid" alt="..."></img>
-        </div>
-        <div className="carousel-item">
-          <img src={`${process.env.PUBLIC_URL}/images/Capa_1-2.png`} className="d-block img-fluid" alt="..."></img>
-        </div>
-        */}
+
+  return (
+    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+      <div className="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-       {/*
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <div className="carousel-inner">
+        {/* Slide 1 */}
+        <div className="carousel-item hero-carousel-item active">
+          <div className="d-flex flex-column flex-xl-row justify-content-center align-items-center w-100 h-100">
+            <div className="bienvenida-texto text-center">
+                <span>Te damos la bienvenida a </span> <br />
+                <span style={{color: '#1E836D'}}>Ethereum </span>
+                <span style={{color: '#D83535'}}>México </span>
+            </div>
+            <img src={`${process.env.PUBLIC_URL}/images/EM-logo-square.svg`} className="d-block img-fluid" alt="..." />
+          </div>
+        </div>
+
+        {/* Slide 2 */}
+        <div className="carousel-item hero-carousel-item">
+          <div className="d-flex flex-column flex-xl-row justify-content-center align-items-center gap-5 w-100 h-100">
+            <div className="bienvenida-texto text-center">
+              <span style={{color: '#1E836D'}}>Próximamente... </span>
+            </div>
+            <img src={`${process.env.PUBLIC_URL}/images/MTY-1.avif`} className="d-block img-fluid bienvenida-imagen" alt="..." />
+          </div>
+        </div>
+
+        {/* Slide 3 */}
+        <div className="carousel-item hero-carousel-item">
+          <div className="d-flex flex-column flex-xl-row justify-content-center align-items-center gap-5 w-100 h-100">
+            <div className="bienvenida-texto text-center">
+                <span style={{color: '#1E836D'}}>Ethereum México 2025</span> <br />
+                <span style={{color: '#D83535'}}>Monterrey</span> 
+            </div>
+            <img src={`${process.env.PUBLIC_URL}/images/MTY-2.avif`} className="d-block img-fluid bienvenida-imagen" alt="..." />
+          </div>
+        </div>
+      </div>
+
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span className="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
       </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span className="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
-      */}
     </div>
   );
 }
 
-export default Carrusel;  // Exporta el componente Hero
+export default Carrusel;

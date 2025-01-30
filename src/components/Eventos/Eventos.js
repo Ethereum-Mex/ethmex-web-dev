@@ -1,44 +1,36 @@
 import './Eventos.css';
 import React from 'react';
 
-
+const eventos = [
+  { id: 1, nombre: "Ethereum México 2023", enlace: "" },
+  { id: 2, nombre: "Ethereum México 2024", enlace: "https://ethmexico.org/" },
+  { id: 3, nombre: "Calendario de Eventos", enlace: "https://lu.ma/user/usr-v1zLEl1mRH1H4md" }
+];
 
 function Eventos() {
-    return (
-      <div className="container-fluid container-ethmex align-items-center justify-content-center" id="eventos">
-        <h1 className="ethmex-primary-title text-center">Eventos</h1>
-        <br /><br />
+  return (
+    <div className="container-fluid container-ethmex align-items-center justify-content-center" id="eventos">
+      <h1 className="ethmex-primary-title text-center mb-5">Eventos</h1>
 
-        <div className="container-ethmex-aux mx-auto ">
-          <div className="row g-4 ">
-            {/* Primer valor */}
-            <div className="col-12 col-xl-4 text-center">
-              <a href="https://ethmexico.org/" class="btn btn-evento" target="_blank" rel="noopener noreferrer">
-                Ethereum México 2023
+      <div className="container-ethmex-aux mx-auto">
+        <div className="row g-4">
+          {eventos.map(evento => (
+            <div key={evento.id} className="col-12 col-xl-4 text-center">
+              <a 
+                href={evento.enlace} 
+                className="btn btn-evento" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label={`Abrir enlace de ${evento.nombre}`}
+              >
+                {evento.nombre}
               </a>
             </div>
-
-            {/* Segundo valor */}
-            <div className="col-12 col-xl-4 text-center text-align-center">
-              <a href="https://ethmexico.org/" class="btn btn-evento" target="_blank" rel="noopener noreferrer">
-                Ethereum México 2024
-              </a>
-            </div>
-
-            {/* Tercer valor */}
-            <div className="col-12 col-xl-4 text-center ">
-              <a href="https://lu.ma/user/usr-v1zLEl1mRH1H4md" class="btn btn-evento" target="_blank" rel="noopener noreferrer" >
-                Calendario de Eventos
-              </a>
-                
-            </div>
-
-          </div>             
-
+          ))}
         </div>
       </div>
-      )
-    ;
-  }
+    </div>
+  );
+}
 
-export default Eventos; 
+export default Eventos;

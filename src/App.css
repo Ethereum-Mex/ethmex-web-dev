@@ -22,15 +22,15 @@
 .ethmex-primary-title{
     color: #1E836D;
     font-size: 48px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-family: 'Passion One', sans-serif;
 
 }
 
 .ethmex-primary-subtitle{
     color: #1E836D;
-    font-size: 24px;
-    letter-spacing: 1px;
+    font-size: 26px;
+    letter-spacing: 0.5px;
 }
 
 
@@ -38,14 +38,14 @@
     color: #1E836D;
     font-family: 'Manrope', sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .ethmex-text{
     color: #3A3A3A;
     font-family: 'Manrope', sans-serif;
     font-size: 16px;
-    text-align: center;
+
     
 }
 
@@ -60,6 +60,7 @@
 .accordion {
     margin: 0 auto; 
     box-shadow: none;
+
 }
 
 .accordion-item{
@@ -71,6 +72,9 @@
 .accordion-button{
     background-color: #FFC476;
     border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    
 }
 
 .accordion-button:focus,
