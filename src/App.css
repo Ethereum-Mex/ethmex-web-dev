@@ -9,6 +9,7 @@
       linear-gradient(to bottom, #FEF9F5, #FDE2CF); /* Degradado */
     background-position: center; /* Centra la imagen de fondo */
     padding: 30px;
+    height: 100vh;
 }
 
 .hero-footer-ethmex{
@@ -84,9 +85,6 @@
 }
 
 @media (min-width: 992px) {
-    .hero-ethmex {
-        height: 100vh; 
-    }
 
     .ethmex-text{
         text-align: left;

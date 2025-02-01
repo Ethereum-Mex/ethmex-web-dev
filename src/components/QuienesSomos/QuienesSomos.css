@@ -1,14 +1,10 @@
-.somos-imagen {
-    border-radius: 16px;
-
-}
 
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 
     .somos-imagen{
-        width: 580px;
-        margin-right: 40px;
+        width: 600px;
+
     }
     .somos-texto{
         width: 580px;

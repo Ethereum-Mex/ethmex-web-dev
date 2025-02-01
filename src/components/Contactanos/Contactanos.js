@@ -10,8 +10,8 @@ function Contactanos() {
         <br></br>
 
         <div className="container-ethmex-aux mx-auto">
-          <h1 className="ethmex-primary-title ">Contáctanos</h1>
-          <p className="ethmex-text mx-auto " style={{textAlign: 'left'}}>
+          <h1 className="ethmex-primary-title text-center">Contáctanos</h1>
+          <p className="ethmex-text mx-auto text-center" style={{textAlign: 'left'}}>
           ¿Tienes más preguntas o te gustaría colaborar con nosotros? ¡Ponte en contacto! Pronto te enviaremos una respuesta.
           </p>
           <br></br>

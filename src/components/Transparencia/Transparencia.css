@@ -1,13 +1,11 @@
 .btn-transparencia{
     background-color: #FF4C52;
     border: solid #FF4C52;
-    width: 360px;
-    height: 50px;
     color: #FEF9F5;
     font-size: 24px;
     letter-spacing: 1px;
+    width: 90%;
 }
-
 
 .btn-transparencia:active,
 .btn-transparencia:hover

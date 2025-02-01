@@ -10,7 +10,7 @@ function Faq() {
         <br></br>
 
         <div className="container-ethmex-aux mx-auto">
-          <h1 className="ethmex-primary-title ">Preguntas Frecuentes</h1>
+          <h1 className="ethmex-primary-title text-center">Preguntas Frecuentes</h1>
 
           <div className="accordion mt-5" id="accordionPanelsStayOpenExample">
           <div className="accordion-item mb-3">

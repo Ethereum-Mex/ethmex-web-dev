@@ -1,44 +1,38 @@
 
-
 .hero-carousel-item{
-  height: 90vh;
+  height: 80vh;
+
 }
 
 .bienvenida-texto{
   font-weight: bold;
-  font-size: 68px;
+  font-size: 60px;
   text-align: center;
   font-family: 'Passion One', sans-serif;
+  line-height: 1.2;
+  
 }
 
-.bienvenida-imagen{
-  border-radius: 16px;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #3A3A3A; 
+.carousel-control-next-icono{
   border-radius: 100%;
+  background-color: #FEF9F5;
+  color: #3A3A3A;
+  padding: 1px 0px 1px 3px;
+}
+
+.carousel-control-prev-icono{
+  border-radius: 100%;
+  background-color: #FEF9F5;
+  color: #3A3A3A;
+  padding: 1px 3px 1px 0px;
 }
 
 @media (min-width: 1200px) {
 
   .bienvenida-texto{
-    text-align: left;
-    font-size: 77px;
-    letter-spacing: 2px;
+    font-size: 72px;
+    letter-spacing: 1px;
   }
 
-  .bienvenida-imagen{
-    width: 600px;
-    margin-left: 30px;
-  }
-  
 
-}
-
-@media (min-width: 1400px) {
-  .bienvenida-imagen{
-    width: 43%;
-  }
 }

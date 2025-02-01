@@ -25,7 +25,7 @@ function Footer() {
 
   return (
     <footer className="footer-ethmex">
-      <div className="d-flex flex-row align-items-center justify-content-between flex-wrap">
+      <div className="d-flex flex-row align-items-center justify-content-center justify-content-md-between flex-wrap gap-4">
         {/* Logo principal */}
         <div className="footer-logo">
           <a href="/">

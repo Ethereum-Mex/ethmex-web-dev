@@ -3,7 +3,7 @@ import React from 'react';
 
 const eventos = [
   { id: 1, nombre: "Ethereum México 2023", enlace: "" },
-  { id: 2, nombre: "Ethereum México 2024", enlace: "https://ethmexico.org/" },
+  { id: 2, nombre: "Ethereum México 2024", enlace: "" },
   { id: 3, nombre: "Calendario de Eventos", enlace: "https://lu.ma/user/usr-v1zLEl1mRH1H4md" }
 ];
 
@@ -15,7 +15,7 @@ function Eventos() {
       <div className="container-ethmex-aux mx-auto">
         <div className="row g-4">
           {eventos.map(evento => (
-            <div key={evento.id} className="col-12 col-xl-4 text-center">
+            <div key={evento.id} className="col-12 col-sm-6 col-md-4 text-center">
               <a 
                 href={evento.enlace} 
                 className="btn btn-evento" 

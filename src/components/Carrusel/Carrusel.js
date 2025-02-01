@@ -5,53 +5,53 @@ function Carrusel() {
 
 
   return (
-    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselHeroEthMex" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselHeroEthMex" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" style={{ backgroundColor: '#3A3A3A' }}></button>
+        <button type="button" data-bs-target="#carouselHeroEthMex" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundColor: '#3A3A3A' }}></button>
+        <button type="button" data-bs-target="#carouselHeroEthMex" data-bs-slide-to="2" aria-label="Slide 3" style={{ backgroundColor: '#3A3A3A' }}></button>
       </div>
       <div className="carousel-inner">
         {/* Slide 1 */}
-        <div className="carousel-item hero-carousel-item active">
-          <div className="d-flex flex-column flex-xl-row justify-content-center align-items-center w-100 h-100">
+        <div className="carousel-item hero-carousel-item active ">
+          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center h-100">
             <div className="bienvenida-texto text-center">
                 <span>Te damos la bienvenida a </span> <br />
                 <span style={{color: '#1E836D'}}>Ethereum </span>
                 <span style={{color: '#D83535'}}>México </span>
             </div>
-            <img src={`${process.env.PUBLIC_URL}/images/EM-logo-square.svg`} className="d-block img-fluid" alt="..." />
+            <img src={`${process.env.PUBLIC_URL}/images/EM-logo-square.svg`} className="d-block img-fluid" width="500" alt="..." />
           </div>
         </div>
 
         {/* Slide 2 */}
         <div className="carousel-item hero-carousel-item">
-          <div className="d-flex flex-column flex-xl-row justify-content-center align-items-center gap-5 w-100 h-100">
+          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5 h-100 ">
             <div className="bienvenida-texto text-center">
-              <span style={{color: '#1E836D'}}>Próximamente... </span>
+              <span style={{color: '#1E836D'}}>Muy Pronto... </span>
             </div>
-            <img src={`${process.env.PUBLIC_URL}/images/MTY-1.avif`} className="d-block img-fluid bienvenida-imagen" alt="..." />
+            <img src={`${process.env.PUBLIC_URL}/images/MTY-1.avif`} className="d-block img-fluid h-40 rounded-4" width="600"  alt="..." />
           </div>
         </div>
 
         {/* Slide 3 */}
         <div className="carousel-item hero-carousel-item">
-          <div className="d-flex flex-column flex-xl-row justify-content-center align-items-center gap-5 w-100 h-100">
+          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5 h-100">
             <div className="bienvenida-texto text-center">
                 <span style={{color: '#1E836D'}}>Ethereum México 2025</span> <br />
                 <span style={{color: '#D83535'}}>Monterrey</span> 
             </div>
-            <img src={`${process.env.PUBLIC_URL}/images/MTY-2.avif`} className="d-block img-fluid bienvenida-imagen" alt="..." />
+            <img src={`${process.env.PUBLIC_URL}/images/MTY-2.avif`} className="d-block img-fluid  h-40 rounded-4" width="600" alt="..." />
           </div>
         </div>
       </div>
 
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span className="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+      <button className="carousel-control-prev w-auto" type="button" data-bs-target="#carouselHeroEthMex" data-bs-slide="prev">
+          <img src={`${process.env.PUBLIC_URL}/images/arrow-prev.svg`} className="img-fluid carousel-control-prev-icono" alt="arrow-prev" />
         <span className="visually-hidden">Previous</span>
       </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span className="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+      <button className="carousel-control-next w-auto" type="button" data-bs-target="#carouselHeroEthMex" data-bs-slide="next">
+        <img src={`${process.env.PUBLIC_URL}/images/arrow-next.svg`}  className="img-fluid carousel-control-next-icono"  alt="arrow-next"  aria-hidden="true"/>
         <span className="visually-hidden">Next</span>
       </button>
     </div>

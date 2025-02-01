@@ -13,10 +13,10 @@ function QuienesSomos() {
       <h1 className="ethmex-primary-title text-center mb-5">¿Quiénes Somos?</h1>
 
       <div className="container-ethmex-aux mx-auto">
-        <div className="d-flex flex-column flex-xl-row align-items-center justify-content-center gap-4">
+        <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-4">
           <img 
             src={`${process.env.PUBLIC_URL}/images/fin_merida.JPG`} 
-            className="d-block img-fluid somos-imagen" 
+            className="d-block img-fluid somos-imagen rounded-4" 
             alt="Imagen de Ethereum México" 
             loading="lazy" 
           />
@@ -47,7 +47,7 @@ function QuienesSomos() {
                   {titulo}
                 </button>
               </h2>
-              <div id={`panelsStayOpen-collapse${id}`} className="accordion-collapse collapse show">
+              <div id={`panelsStayOpen-collapse${id}`} className="accordion-collapse collapse d-none d-lg-block show">
                 <div className="accordion-body">
                   <p className="ethmex-text">{contenido}</p>
                 </div>

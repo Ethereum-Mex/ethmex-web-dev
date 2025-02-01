@@ -1,5 +1,22 @@
-.logros{
-    background-image: 
-      url('/public/images/pattern.png'), /* Imagen de fondo */
-      linear-gradient(to bottom, #FEF9F5, #FDE2CF); /* Degradado */
+
+.logro-carousel-item{
+  height: 80vh;
+
+}
+
+
+@media (min-width: 768px) {
+  .logro-carousel-item{
+    height: 70vh;
+  
+  }
+
+}
+
+@media (min-width: 992px) {
+  .logro-carousel-item{
+    height: 45vh;
+  
+  }
+
 }
