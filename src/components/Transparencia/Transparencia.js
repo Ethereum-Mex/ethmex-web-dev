@@ -6,6 +6,7 @@ const reportes = [
   { id: 2, nombre: "Reporte Evento 2023", enlace: "https://docs.google.com/spreadsheets/d/1dwU5ZkSHSKdegO4DWGsRz0XWcYsqBN3hX1V-vhhTkcY/edit?usp=sharing" },
   { id: 3, nombre: "Reporte Q1 2024", enlace: "https://app.charmverse.io/ethereum-mxico/ethereum-m-xico-reporte-q1-38607541387827093" },
   { id: 4, nombre: "Reporte Q2 2024", enlace: "https://app.charmverse.io/ethereum-mxico/ethereum-m-xico-reporte-q2-571087265739902" },
+  { id: 4, nombre: "Déjanos tu Feedback", enlace: "https://bit.ly/EM-feedback" },
    
 ];
 

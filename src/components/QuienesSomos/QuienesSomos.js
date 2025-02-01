@@ -47,7 +47,7 @@ function QuienesSomos() {
                   {titulo}
                 </button>
               </h2>
-              <div id={`panelsStayOpen-collapse${id}`} className="accordion-collapse collapse">
+              <div id={`panelsStayOpen-collapse${id}`} className="accordion-collapse collapse ">
                 <div className="accordion-body">
                   <p className="ethmex-text">{contenido}</p>
                 </div>
