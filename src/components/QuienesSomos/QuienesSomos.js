@@ -10,7 +10,7 @@ const acordeonItems = [
 function QuienesSomos() {
   return (
     <div className="container-fluid container-ethmex align-items-center justify-content-center" id="quienes-somos">
-      <h1 className="ethmex-primary-title text-center mb-5">¿Quiénes Somos?</h1>
+      <h1 className="ethmex-primary-title text-center mb-4">¿Quiénes Somos?</h1>
 
       <div className="container-ethmex-aux mx-auto">
         <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-4">

@@ -4,7 +4,7 @@ import React from 'react';
 function ConfianNosotros() {
     return (
       <div className="container-fluid container-ethmex align-items-center justify-content-center">
-        <h1 className="ethmex-primary-title text-center mb-5">Confían en Nosotros</h1>
+        <h1 className="ethmex-primary-title text-center mb-4">Confían en Nosotros</h1>
        
 
         <div className="mx-auto">

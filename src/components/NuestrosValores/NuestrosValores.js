@@ -13,7 +13,7 @@ const valores = [
 function NuestrosValores() {
     return (
         <div className="container-fluid container-ethmex align-items-center justify-content-center">
-            <h1 className="ethmex-primary-title text-center mb-5">Nuestros Valores</h1>
+            <h1 className="ethmex-primary-title text-center mb-4">Nuestros Valores</h1>
             
             <div className="container-ethmex-aux mx-auto">
                 <div className="row g-4">

@@ -55,7 +55,7 @@
       url('/public/images/pattern.png'), /* Imagen de fondo */
       linear-gradient(to bottom, #FEF9F5, #FEF9F5); /* Degradado */
     background-position: center; /* Centra la imagen de fondo */
-    padding: 50px 30px; /* Espaciado interno */
+    padding: 30px 30px; /* Espaciado interno */
 }
 
 .accordion {

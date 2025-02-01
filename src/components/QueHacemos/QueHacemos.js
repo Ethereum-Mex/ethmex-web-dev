@@ -37,7 +37,7 @@ const actividades = [
 function QueHacemos() {
   return (
     <div className="container-fluid container-ethmex align-items-center justify-content-center" id="que-hacemos">
-      <h1 className="ethmex-primary-title text-center mb-5">¿Qué Hacemos?</h1>
+      <h1 className="ethmex-primary-title text-center mb-4">¿Qué Hacemos?</h1>
       <p className="ethmex-text text-center mx-auto p-container">
         En Ethereum México nos enfocamos en educar, inspirar y conectar a personas interesadas en la tecnología blockchain, creando espacios para compartir ideas y colaborar en la construcción de un futuro descentralizado. Nuestras actividades incluyen:
       </p>
