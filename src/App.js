@@ -1,3 +1,5 @@
+
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Carrusel from './components/Carrusel/Carrusel.js';
@@ -5,7 +7,7 @@ import Navbar from './components/Navbar/Navbar.js';
 import QuienesSomos from './components/QuienesSomos/QuienesSomos.js';
 import NuestrosValores from './components/NuestrosValores/NuestrosValores.js';
 import QueHacemos from './components/QueHacemos/QueHacemos.js';
-import NuestrosLogros from './components/NuestrosLogros/NuestrosLogros.js'
+import NuestrosLogros from './components/NuestrosLogros/NuestrosLogros.js';
 import ConfianNosotros from './components/ConfianNosotros/ConfianNosotros.js';
 import Eventos from './components/Eventos/Eventos.js';
 import Transparencia from './components/Transparencia/Transparencia.js';
@@ -17,39 +19,55 @@ import NotFound from "./components/NotFound/NotFound.js";
 
 function App() {
   return (
-    
-    <Router> 
-      <Routes>
-        
-        {/* Página principal */}
-        <Route path="/" element={
-          <div>
-            <div className="container-fluid hero-ethmex ">
-              <Navbar />
-              <Carrusel />
+    <>
+    <Router > 
+        <Routes>
+          <Route path="/" element={
+            <div>
+              <div className="container-fluid hero-ethmex ">
+                <Navbar />
+                <Carrusel />
+              </div>
+              <div id="quienes-somos">
+              <QuienesSomos />
             </div>
-            <QuienesSomos />
-            <NuestrosValores />
-            <QueHacemos />
-            <NuestrosLogros />
-            <ConfianNosotros />
-            <Eventos />
-            <Transparencia />
-            <Faq />
-            {/* <Contactanos /> */}
-            <div className="container-fluid hero-footer-ethmex ">
-              <Footer />
+            <div id="nuestros-valores">
+              <NuestrosValores />
             </div>
-          </div>
-        } />
-        
-        {/* Nueva página */}
-        <Route path="/feedback" element={<Feedback />} />
+            <div id="que-hacemos">
+              <QueHacemos />
+            </div>
+            <div id="nuestros-logros">
+              <NuestrosLogros />
+            </div>
+            <div id="confian-nosotros">
+              <ConfianNosotros />
+            </div>
+            <div id="eventos">
+              <Eventos />
+            </div>
+            <div id="transparencia">
+              <Transparencia />
+            </div>
+            <div id="faq">
+              <Faq />
+            </div>
+              {/* <Contactanos /> */}
+              <div className="container-fluid hero-footer-ethmex ">
+                <Footer />
+              </div>
+            </div>
+          } />
 
-        {/* Not Found */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+          {/* Nueva página */}
+          <Route path="/feedback" element={<Feedback />} />
+
+          {/* Not Found */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      
     </Router>
+    </>
   );
 }
 

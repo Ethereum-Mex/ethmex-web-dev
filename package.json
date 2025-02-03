@@ -1,7 +1,7 @@
 {
   "name": "eth_mex_2025",
   "version": "0.1.0",
-  "homepage": "https://ethereum-mex.github.io/ethmex-web/",
+  "homepage": "https://Ethereum-Mex.github.io/ethmex-web/",
   "private": true,
   "dependencies": {
     "bootstrap-icons": "^1.11.3",

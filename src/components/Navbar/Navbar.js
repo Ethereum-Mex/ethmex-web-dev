@@ -9,20 +9,19 @@ const navLinks = [
   { href: "#transparencia", label: "Transparencia" },
   { href: "#faq", label: "FAQ" },
   /*{ href: "#contactanos", label: "Contáctanos" }, */
-  { href: "/feedback", label: "Feedback", external: true },
 ];
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-ethmex">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           <img
             src={`${process.env.PUBLIC_URL}/images/Ethereum-Mexico-Logo-01.webp`}
             alt="Ethereum México Logo"
             width="120"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler btn-toggler-ethmex"
           type="button"
@@ -47,6 +46,14 @@ function Navbar() {
                 {label}
               </a>
             ))}
+            <Link
+              key="feedback"
+              className="nav-link"
+              to="/feedback"
+              target="_blank"
+              >
+                Feedback
+              </Link>
             <a className="nav-link" href="https://t.me/ethmexico" target="_blank" rel="noopener noreferrer">
               <button type="button" className="btn btn-navbar">Únete a la comunidad</button>
             </a>
