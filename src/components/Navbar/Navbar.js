@@ -7,7 +7,8 @@ const navLinks = [
   { href: "#eventos", label: "Eventos" },
   { href: "#transparencia", label: "Transparencia" },
   { href: "#faq", label: "FAQ" },
-  { href: "#contactanos", label: "Contáctanos" },
+  /*{ href: "#contactanos", label: "Contáctanos" }, */
+  { href: "/feedback", label: "Feedback", external: true },
 ];
 
 function Navbar() {
@@ -34,8 +35,14 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto gap-2 align-items-center">
-            {navLinks.map(({ href, label }) => (
-              <a key={href} className="nav-link" href={href}>
+            {navLinks.map(({ href, label, external }) => (
+              <a
+              key={href}
+              className="nav-link"
+              href={href}
+              target={external ? "_blank" : "_self"} 
+              rel={external ? "noopener noreferrer" : undefined} 
+              >
                 {label}
               </a>
             ))}

@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Carrusel from './components/Carrusel/Carrusel.js';
 import Navbar from './components/Navbar/Navbar.js';
@@ -11,30 +12,38 @@ import Transparencia from './components/Transparencia/Transparencia.js';
 import Faq from './components/FAQ/Faq.js';
 import Contactanos from './components/Contactanos/Contactanos.js';
 import Footer from './components/Footer/Footer.js';
-
+import Feedback from "./components/Feedback/Feedback.js";
 
 function App() {
   return (
-    <div>
-      <div className="container-fluid hero-ethmex ">
-        <Navbar />
-        <Carrusel />
-      </div>
-      
-      <QuienesSomos />
-      <NuestrosValores />
-      <QueHacemos />
-      <NuestrosLogros />
-      <ConfianNosotros />
-      <Eventos />
-      <Transparencia />
-      <Faq />
-      <Contactanos />
-      <div className="container-fluid hero-footer-ethmex ">
-        <Footer />
-      </div>
-      
-    </div>
+    <Router> 
+      <Routes>
+        {/* Página principal */}
+        <Route path="/" element={
+          <div>
+            <div className="container-fluid hero-ethmex ">
+              <Navbar />
+              <Carrusel />
+            </div>
+            <QuienesSomos />
+            <NuestrosValores />
+            <QueHacemos />
+            <NuestrosLogros />
+            <ConfianNosotros />
+            <Eventos />
+            <Transparencia />
+            <Faq />
+            {/* <Contactanos /> */}
+            <div className="container-fluid hero-footer-ethmex ">
+              <Footer />
+            </div>
+          </div>
+        } />
+        
+        {/* Nueva página */}
+        <Route path="/feedback" element={<Feedback />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,21 +1,13 @@
 
 .logro-carousel-item{
-  
-
+height: 62vh;
 }
 
 
-@media (min-width: 768px) {
-  .logro-carousel-item{
-    height: 70vh;
-  
-  }
-
-}
 
 @media (min-width: 992px) {
   .logro-carousel-item{
-    height: 45vh;
+    height: 38vh;
   
   }
 
