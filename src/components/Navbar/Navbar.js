@@ -1,5 +1,6 @@
 import './Navbar.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const navLinks = [
   { href: "#quienes-somos", label: "Quiénes Somos" },

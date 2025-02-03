@@ -1,5 +1,27 @@
-<script>
-    var redirectTo = window.location.origin + "/#/" + window.location.pathname.substring(1);
-    window.location.replace(redirectTo);
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volvamos al inicio...</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Volvamos al inicio...</h2>
+  <p>Si no eres redirigido automáticamente, <a id="redirectLink" href="#">haz clic aquí</a>.</p>
+
+  <script>
+    var newPath = "/#/" + window.location.pathname.substring(1);
+    var redirectTo = window.location.origin + newPath;
+
+    document.getElementById("redirectLink").href = redirectTo;
+    setTimeout(() => window.location.replace(redirectTo), 1000);
   </script>
-  
+</body>
+</html>

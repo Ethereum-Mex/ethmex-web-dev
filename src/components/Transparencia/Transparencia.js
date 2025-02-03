@@ -1,5 +1,6 @@
 import './Transparencia.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const reportes = [
   { id: 1, nombre: "Reporte Anual 2023 ", enlace: "https://docs.google.com/spreadsheets/d/1XvXDg-pFXg1QulzYTvsLwUKILRdR1rK6KkBJFdPn8u8/edit?usp=sharing" },
@@ -19,15 +20,15 @@ function Transparencia() {
         <div className="row g-4">
           {reportes.map(reporte => (
             <div key={reporte.id} className="col-12 col-sm-6 col-md-4 text-center">
-              <a 
-                href={reporte.enlace} 
+              <Link 
+                to={reporte.enlace} 
                 className="btn btn-transparencia" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label={`Abrir enlace de ${reporte.nombre}`}
               >
                 {reporte.nombre}
-              </a>
+              </Link>
             </div>
           ))}
         </div>

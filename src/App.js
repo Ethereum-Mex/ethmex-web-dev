@@ -13,11 +13,14 @@ import Faq from './components/FAQ/Faq.js';
 import Contactanos from './components/Contactanos/Contactanos.js';
 import Footer from './components/Footer/Footer.js';
 import Feedback from "./components/Feedback/Feedback.js";
+import NotFound from "./components/NotFound/NotFound.js";
 
 function App() {
   return (
+    
     <Router> 
       <Routes>
+        
         {/* Página principal */}
         <Route path="/" element={
           <div>
@@ -42,6 +45,9 @@ function App() {
         
         {/* Nueva página */}
         <Route path="/feedback" element={<Feedback />} />
+
+        {/* Not Found */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
