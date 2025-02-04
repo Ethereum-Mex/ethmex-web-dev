@@ -1,6 +1,4 @@
-
-
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Carrusel from './components/Carrusel/Carrusel.js';
 import Navbar from './components/Navbar/Navbar.js';
@@ -20,38 +18,23 @@ import NotFound from "./components/NotFound/NotFound.js";
 function App() {
   return (
     <>
-    <Router > 
-        <Routes>
+    <Router> 
+
+      <Routes> 
           <Route path="/" element={
             <div>
               <div className="container-fluid hero-ethmex ">
                 <Navbar />
                 <Carrusel />
               </div>
-              <div id="quienes-somos">
               <QuienesSomos />
-            </div>
-            <div id="nuestros-valores">
               <NuestrosValores />
-            </div>
-            <div id="que-hacemos">
               <QueHacemos />
-            </div>
-            <div id="nuestros-logros">
               <NuestrosLogros />
-            </div>
-            <div id="confian-nosotros">
               <ConfianNosotros />
-            </div>
-            <div id="eventos">
               <Eventos />
-            </div>
-            <div id="transparencia">
               <Transparencia />
-            </div>
-            <div id="faq">
               <Faq />
-            </div>
               {/* <Contactanos /> */}
               <div className="container-fluid hero-footer-ethmex ">
                 <Footer />
@@ -64,8 +47,7 @@ function App() {
 
           {/* Not Found */}
           <Route path="*" element={<NotFound />} />
-        </Routes>
-      
+        </Routes> 
     </Router>
     </>
   );

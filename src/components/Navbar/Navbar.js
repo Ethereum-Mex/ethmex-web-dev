@@ -1,17 +1,31 @@
 import './Navbar.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const navLinks = [
-  { href: "#quienes-somos", label: "Quiénes Somos" },
-  { href: "#que-hacemos", label: "Qué Hacemos" },
-  { href: "#eventos", label: "Eventos" },
-  { href: "#transparencia", label: "Transparencia" },
-  { href: "#faq", label: "FAQ" },
+  { id: "quienes-somos", label: "Quiénes Somos" },
+  { id: "que-hacemos", label: "Qué Hacemos" },
+  { id: "eventos", label: "Eventos" },
+  { id: "transparencia", label: "Transparencia" },
+  { id: "faq", label: "FAQ" },
   /*{ href: "#contactanos", label: "Contáctanos" }, */
 ];
 
 function Navbar() {
+
+  const location = useLocation();
+
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+  
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.location.href = `/#${id}`; // Redirigir si no estamos en home
+    }
+  };
+  
+
   return (
     <nav className="navbar navbar-expand-lg navbar-ethmex">
       <div className="container-fluid">
@@ -31,20 +45,18 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ms-auto gap-2 align-items-center">
-            {navLinks.map(({ href, label, external }) => (
-              <a
-              key={href}
-              className="nav-link"
-              href={href}
-              target={external ? "_blank" : "_self"} 
-              rel={external ? "noopener noreferrer" : undefined} 
-              >
-                {label}
-              </a>
+        <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div className="navbar-nav ms-auto gap-2 align-items-center ">
+            {navLinks.map(({ label, id }) => (
+              <button
+              key={id}
+              className="nav-link btn btn-link"
+              onClick={() => handleScroll(id)}
+            >
+              {label}
+            </button>
             ))}
             <Link
               key="feedback"
