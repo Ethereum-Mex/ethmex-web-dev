@@ -1,6 +1,6 @@
 
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Carrusel from './components/Carrusel/Carrusel.js';
 import Navbar from './components/Navbar/Navbar.js';
