@@ -2,8 +2,8 @@ import './Eventos.css';
 import React from 'react';
 
 const eventos = [
-  { id: 1, nombre: "Ethereum México 2023", enlace: "" },
-  { id: 2, nombre: "Ethereum México 2024", enlace: "" },
+  { id: 1, nombre: "Ethereum México 2023", enlace: "https://www.youtube.com/watch?v=4kBLHlW6T00&t=2s" },
+  { id: 2, nombre: "Ethereum México 2024", enlace: "https://www.youtube.com/watch?v=i3RyCmujgj8&t=4s" },
   { id: 3, nombre: "Calendario de Eventos", enlace: "https://lu.ma/user/usr-v1zLEl1mRH1H4md" }
 ];
 

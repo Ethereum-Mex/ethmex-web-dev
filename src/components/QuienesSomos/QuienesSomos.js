@@ -2,9 +2,9 @@ import './QuienesSomos.css';
 import React from 'react';
 
 const acordeonItems = [
-  { id: "One", titulo: "Misión", contenido: "Promover el estudio, la investigación y la capacitación sobre Ethereum en México, colaborando con organizaciones afines y participando en iniciativas que fortalezcan la tecnología blockchain y su ecosistema." },
-  { id: "Two", titulo: "Visión", contenido: "Ser una comunidad sólida y referente en el crecimiento del ecosistema Ethereum, tanto en México como internacionalmente, comprometidos con la comunidad y su desarrollo." },
-  { id: "Three", titulo: "Nuestra historia", contenido: "Ethereum México nació en mayo de 2022 como una iniciativa para atraer, inspirar y empoderar a la próxima generación de entusiastas de Ethereum. Desde entonces, trabajamos por un futuro descentralizado, aprovechando el poder que la blockchain aporta al mundo." }
+  { id: "One", titulo: "Misión", contenido: "Inspirar y educar a más personas sobre Ethereum. Y facilitar el acceso al conocimiento, la innovación y la participación en el ecosistema, impulsando iniciativas y un evento anual. " },
+  { id: "Two", titulo: "Visión", contenido: "Lograr ser la organización referente en el ecosistema web3, fortaleciendo el desarrollo de Ethereum a través de iniciativas, educación, investigación, capacitación y colaboración." },
+  { id: "Three", titulo: "Nuestra historia", contenido: "Ethereum México nació en mayo de 2022 como una iniciativa para atraer, inspirar y empoderar a la próxima generación de entusiastas de Ethereum. Desde entonces, trabajamos por un futuro descentralizado, aprovechando el potencial de la blockchain. \n\n  El nombre Ethereum México se adoptó, en un contexto donde surgían diversas iniciativas enfocadas en Ethereum a nivel global, especialmente en preparación para Devcon 2022 en Colombia. Desde el inicio, nos establecimos como una iniciativa, que opera de forma independiente y sin una relación directa con la Ethereum Foundation." }
 ];
 
 function QuienesSomos() {
@@ -21,14 +21,15 @@ function QuienesSomos() {
             loading="lazy" 
           />
           <div className="somos-texto">
-            <p className="ethmex-text">
-              Ethereum México es una comunidad vibrante de entusiastas de Web3, centrada en la blockchain de Ethereum. 
-              <span className="ethmex-primary-text"> Nacimos para inspirar, educar y conectar </span> 
-              a personas interesadas en esta tecnología transformadora, a través de actividades educativas y colaborativas impulsadas por la comunidad.
+            <p className="ethmex-text"> Ethereum México es una organización dedicada a 
+              <span className="ethmex-primary-text"> fomentar el crecimiento de Ethereum en México </span> 
+              mediante workshops, eventos e iniciativas educativas.
             </p>
             <p className="ethmex-text">
-              <span className="ethmex-primary-text">Nuestro objetivo es motivar a mexicanos y latinoamericanos a unirse al movimiento Web3</span>, 
-              contribuyendo al "jardín infinito" de Ethereum, un espacio en constante expansión donde ideas, aprendizaje y relaciones fortalecen el ecosistema y nuestra comunidad.
+            Estamos comprometidos con el fortalecimiento del ecosistema Ethereum en el país a través de eventos anuales, iniciativas educativas y el desarrollo de recursos accesibles para la comunidad. Nos enfocamos en <span className="ethmex-primary-text"> crear espacios de aprendizaje e innovación </span> en colaboración con organizaciones nacionales e internacionales. 
+            </p>
+            
+            <p className="ethmex-text">Más que centralizar la narrativa de Ethereum en México, buscamos ser una plataforma que impulse un evento anual, promueva la educación y <span className="ethmex-primary-text"> brinde apoyo y recursos a la comunidad</span>. 
             </p>
           </div>
         </div>
@@ -49,7 +50,8 @@ function QuienesSomos() {
               </h2>
               <div id={`panelsStayOpen-collapse${id}`} className="accordion-collapse collapse ">
                 <div className="accordion-body">
-                  <p className="ethmex-text">{contenido}</p>
+                  
+                  <span className="ethmex-text" dangerouslySetInnerHTML={{ __html: contenido.replace(/\n/g, '<br />') }}/>
                 </div>
               </div>
             </div>
