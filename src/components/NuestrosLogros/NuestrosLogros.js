@@ -3,7 +3,7 @@ import React from 'react';
 
 const logros = [
   {
-    img: 'IMG_8431-1.jpeg',
+    img: 'EM-merida1.jpeg',
     alt: 'Ethereum México 2024 en Mérida',
     titulo: 'Ethereum México 2024 en Mérida',
     descripcion: 'El evento contó con 2 escenarios, 40 ponencias, 5 paneles y 7 talleres, reuniendo a más de 700 asistentes y alcanzando 3.1k vistas en streaming.  ',
@@ -31,6 +31,20 @@ const logros = [
     link: 'https://x.com/ethereum_mexico/status/1757833889643475105'
   },
   {
+    img: 'workshop-web3.jpg',
+    alt: 'Talleres Virtuales',
+    titulo: 'Talleres Virtuales',
+    descripcion: 'A la fecha, hemos organizamos más de 30 talleres sobre Web3 y Ethereum, algunos ya disponibles en nuestro canal de YouTube. ¡Y lo seguiremos haciendo!',
+    link: 'https://www.youtube.com/@ethereummexico/streams'
+  },
+  {
+    img: 'becas-EM1.jpeg',
+    alt: 'Becas',
+    titulo: 'Becas',
+    descripcion: 'Más de 30 personas talentosas patrocinadas para asistir a diversas conferencias Web3, entre ellas la más reciente Devcon VII en Bangkok, Tailandia.',
+    link: 'https://x.com/ethereum_mexico/status/1855997382401610185'
+  },
+  {
     img: 'ethmex2023.jpg',
     alt: 'Ethereum México 2023 en CDMX',
     titulo: 'Ethereum México 2023 en CDMX',
@@ -43,7 +57,16 @@ const logros = [
     titulo: 'Camino Optimista 2023',
     descripcion: 'Un recorrido por 11 ciudades de México, difundiendo el conocimiento sobre Optimism y conectando con diversas comunidades en el marco de Ethereum México 2023. ',
     link: 'https://x.com/ethereum_mexico/status/1696684268020273452'
+  },
+  {
+    img: 'sombrero-vitalik1.jpeg',
+    alt: 'Sombrero Vitalik',
+    titulo: 'Colaboración en ETH GLOBAL 2022',
+    descripcion: 'Entregamos el Sombrero Mexicano a Vitalik, Aya y Kartik en EthMexico 2022, organizado por EthGlobal. ¡Fue todo un honor!',
+    link: 'https://x.com/ethereum_mexico/status/1561469182117646337'
   }
+  
+  
 ];
 
 function NuestrosLogros() {

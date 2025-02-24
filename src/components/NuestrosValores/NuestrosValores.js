@@ -3,11 +3,11 @@ import React from 'react';
 
 const valores = [
     { id: 'descentralizacion', titulo: 'Descentralización', descripcion: 'Miembros en todo el país, cualquiera puede contribuir y compartir conocimiento sobre Ethereum.' },
-    { id: 'inclusion', titulo: 'Inclusión', descripcion: 'Ethereum México es un espacio abierto para todas las personas.' },
-    { id: 'educacion', titulo: 'Educación', descripcion: 'Formamos a la comunidad sobre la tecnología de Ethereum.' },
-    { id: 'innovacion', titulo: 'Innovación', descripcion: 'Buscamos siempre nuevas formas de hacer las cosas, mejorando día a día.' },
+    { id: 'inclusion', titulo: 'Equidad e Inclusión', descripcion: 'Creemos en la diversidad de perspectivas y en la importancia de construir una organización accesible para las personas, sin importar su nivel de experiencia, género, ubicación o contexto.' },
+    { id: 'educacion', titulo: 'Educación', descripcion: 'Estamos comprometidos con el fortalecimiento del ecosistema Ethereum a través de eventos anuales e iniciativas educativas.' },
+    { id: 'innovacion', titulo: 'Innovación', descripcion: 'Nos mantenemos en constante evolución, adaptándonos a los cambios del ecosistema Web3.' },
     { id: 'transparencia', titulo: 'Transparencia', descripcion: 'La transparencia es fundamental en todo lo que hacemos. Los recursos obtenidos se destinan exclusivamente a beneficiar a la comunidad y siempre será de conocimiento público.' },
-    { id: 'comunidad', titulo: 'Comunidad', descripcion: 'Nacemos de la comunidad y para la comunidad. Todas nuestras actividades se realizan en beneficio de la misma.' }
+    { id: 'comunidad', titulo: 'Comunidad (Infinite Gardeners 🌱)', descripcion: 'Crecemos juntos  e impulsamos a otros a crecer. Nos enfocamos en fomentar un ecosistema descentralizado donde cada persona pueda contribuir, aprender y mejorar continuamente.' }
 ];
 
 function NuestrosValores() {

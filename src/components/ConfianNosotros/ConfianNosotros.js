@@ -17,7 +17,13 @@ function ConfianNosotros() {
                 { src: "ethereum-foundation.svg", alt: "Icono de Ethereum Foundation" },
                 { src: "ledger.svg", alt: "Icono de Ledger" },
                 { src: "bitso.svg", alt: "Icono de Bitso" },
-                { src: "optimism.svg", alt: "Icono de Optimism" }
+                { src: "optimism.svg", alt: "Icono de Optimism" },
+                { src: "bitrefill.svg", alt: "Icono de Bitrefill" },
+                { src: "ens_logo_text_dark.svg", alt: "Icono de ENS" },
+                { src: "metalogo.svg", alt: "Icono de Metapool" },
+                { src: "starknet-logo.svg", alt: "Icono de Starknet" },
+                { src: "obol.svg", alt: "Icono de Obol" },
+                { src: "streameth.svg", alt: "Icono de StreamEth" }
               ].map((logo, index) => (
                 <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mb-md-5 text-center">
                   <img
