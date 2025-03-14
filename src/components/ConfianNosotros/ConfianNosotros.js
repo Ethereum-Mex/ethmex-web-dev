@@ -25,7 +25,7 @@ function ConfianNosotros() {
                 { src: "obol.svg", alt: "Icono de Obol" },
                 { src: "streameth.svg", alt: "Icono de StreamEth" }
               ].map((logo, index) => (
-                <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 mb-md-5 text-center">
+                <div key={index} className="col-6 col-sm-6 col-md-4 col-lg-2 mb-4 mb-md-5 text-center">
                   <img
                     src={`${process.env.PUBLIC_URL}/images/${logo.src}`}
                     className="img-fluid"

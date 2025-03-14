@@ -41,7 +41,7 @@ const logros = [
     img: 'becas-EM1.jpeg',
     alt: 'Becas',
     titulo: 'Becas',
-    descripcion: 'Más de 30 personas talentosas patrocinadas para asistir a diversas conferencias Web3, entre ellas la más reciente Devcon VII en Bangkok, Tailandia.',
+    descripcion: 'Más de 30 personas talentosas becadas para asistir a diversas conferencias Web3, entre ellas la más reciente Devcon VII en Bangkok, Tailandia.',
     link: 'https://x.com/ethereum_mexico/status/1855997382401610185'
   },
   {
