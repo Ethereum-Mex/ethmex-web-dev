@@ -13,8 +13,8 @@ function ConfianNosotros() {
               {/* Logos*/}
               {[
                 { src: "esp.svg", alt: "Icono de ESP" },
-                { src: "arbitrum.svg", alt: "Icono de Arbitrum" },
                 { src: "ethereum-foundation.svg", alt: "Icono de Ethereum Foundation" },
+                { src: "arbitrum.svg", alt: "Icono de Arbitrum" },
                 { src: "ledger.svg", alt: "Icono de Ledger" },
                 { src: "bitso.svg", alt: "Icono de Bitso" },
                 { src: "optimism.svg", alt: "Icono de Optimism" },
