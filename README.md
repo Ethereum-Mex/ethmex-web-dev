@@ -61,4 +61,4 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 
 ## Credits
-With ♡, designed by SofiVerse ([@0xSofiverse](https://x.com/0xSofiverse)), developed by Liz Durán ([@liz_durang](https://x.com/liz_durang)) & content curated by Yael ([@YaelMarahi](https://x.com/YaelMarahi))
+With ♡, designed by SofiVerse ([@0xSofiverse](https://x.com/0xSofiverse)), developed by Liz Durán ([@liz_durang](https://x.com/liz_durang)) and Paquito Acuña ([@tambiensoydev](https://x.com/tambiensoydev)) & content curated by Yael ([@YaelMarahi](https://x.com/YaelMarahi))
