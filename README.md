@@ -1,7 +1,7 @@
 # Ethereum México Web
 Let's Build!
 
-![Hero Web](https://github.com/Ethereum-Mex/ethmex-web/blob/main/public/images/Hero.png "Hero Web")
+![Hero Web](https://github.com/Ethereum-Mex/ethmex-web/blob/main/public/images/Hero2.png "Hero Web")
 
 ## Quick Start
 
