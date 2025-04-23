@@ -72,7 +72,7 @@ const logros = [
 function NuestrosLogros() {
   return (
     <div className="container-fluid container-ethmex align-items-center justify-content-center">
-      <h1 className="ethmex-primary-title text-center mb-4">Nuestros Logros</h1>
+      <h1 className="ethmex-primary-title text-center mb-5">Nuestros Logros</h1>
 
       <div className="container-ethmex-aux mx-auto">
         <div id="carouselHeroEthMex2" className="carousel slide h-100" data-bs-ride="carousel">

@@ -30,9 +30,9 @@ function Footer() {
         <div className="footer-logo">
           <a href="/">
             <img
-              src={`${process.env.PUBLIC_URL}/images/Ethereum-Mexico_SVG-NEGRO.svg`}
+              src={`${process.env.PUBLIC_URL}/images/EthMX_NegroFull.png`}
               alt="Ethereum México"
-              width="100"
+              width="130"
               height="auto"
             />
           </a>

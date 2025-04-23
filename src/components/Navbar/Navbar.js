@@ -3,6 +3,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const navLinks = [
+
   { id: "quienes-somos", label: "Quiénes Somos" },
   { id: "que-hacemos", label: "Qué Hacemos" },
   { id: "eventos", label: "Eventos" },
@@ -27,7 +28,7 @@ function Navbar() {
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img
-            src={`${process.env.PUBLIC_URL}/images/Ethereum-Mexico-Logo-01.webp`}
+            src={`${process.env.PUBLIC_URL}/images/EthMX_ColorFull.png`}
             alt="Ethereum México Logo"
             width="120"
           />
@@ -44,7 +45,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ms-auto gap-2 align-items-center">
+          <div className="navbar-nav ms-auto gap-1 align-items-center">
             {navLinks.map(({ id, label }) => (
               <button
                 key={id}
@@ -58,6 +59,13 @@ function Navbar() {
             <Link key="feedback" className="nav-link" to="/feedback" target="_blank" rel="noopener noreferrer">
               Feedback
             </Link>
+            
+            {/* Enlace externo a Tally */}
+            {/*
+            <Link key="ETHMX2025" className="nav-link" to="/ETHMX2025" target="_blank" rel="noopener noreferrer">
+              ETHMX 2025
+            </Link>
+            */}
             {/* Enlace externo a Telegram */}
             <a className="nav-link" href="https://t.me/ethmexico" target="_blank" rel="noopener noreferrer">
               <button type="button" className="btn btn-navbar">Únete a la comunidad</button>

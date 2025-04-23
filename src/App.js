@@ -14,6 +14,7 @@ import Contactanos from './components/Contactanos/Contactanos.js';
 import Footer from './components/Footer/Footer.js';
 import Feedback from "./components/Feedback/Feedback.js";
 import NotFound from "./components/NotFound/NotFound.js";
+import ETHMX2025 from "./components/ETHMX2025/ETHMX2025.js";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       <Routes> 
           <Route path="/" element={
             <div>
-              <div className="container-fluid hero-ethmex ">
+              <div className="container-fluid hero-ethmex overflow-hidden">
                 <Navbar />
                 <Carrusel />
               </div>
@@ -44,7 +45,8 @@ function App() {
 
           {/* Nueva página */}
           <Route path="/feedback" element={<Feedback />} />
-
+          <Route path="/ETHMX2025" element={<ETHMX2025 />} />
+          
           {/* Not Found */}
           <Route path="*" element={<NotFound />} />
         </Routes> 
