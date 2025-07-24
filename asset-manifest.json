@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ethmex-web-dev/static/css/main.cd06fa32.css",
-    "main.js": "/ethmex-web-dev/static/js/main.0b88288a.js",
+    "main.css": "/ethmex-web-dev/static/css/main.dce939a8.css",
+    "main.js": "/ethmex-web-dev/static/js/main.08a7357e.js",
     "static/media/pattern.png": "/ethmex-web-dev/static/media/pattern.0de220855f9eb4afba3b.png",
     "static/media/cerro-02.png": "/ethmex-web-dev/static/media/cerro-02.4f43bfdbf00374c11483.png",
     "static/media/GreenBg.png": "/ethmex-web-dev/static/media/GreenBg.8bf5616f85c441b8b8da.png",
     "static/media/BiggerDisplay.otf": "/ethmex-web-dev/static/media/BiggerDisplay.75947e236845336725bd.otf",
     "static/media/PPSupplyMono-Regular.otf": "/ethmex-web-dev/static/media/PPSupplyMono-Regular.2375c08f79742ec60907.otf",
     "index.html": "/ethmex-web-dev/index.html",
-    "main.cd06fa32.css.map": "/ethmex-web-dev/static/css/main.cd06fa32.css.map",
-    "main.0b88288a.js.map": "/ethmex-web-dev/static/js/main.0b88288a.js.map"
+    "main.dce939a8.css.map": "/ethmex-web-dev/static/css/main.dce939a8.css.map",
+    "main.08a7357e.js.map": "/ethmex-web-dev/static/js/main.08a7357e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd06fa32.css",
-    "static/js/main.0b88288a.js"
+    "static/css/main.dce939a8.css",
+    "static/js/main.08a7357e.js"
   ]
 }
